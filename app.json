@@ -1,0 +1,36 @@
+{
+  "expo": {
+    "name": "ClockApp",
+    "slug": "clock-app",
+    "version": "1.0.0",
+    "orientation": "default",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "package": "com.clockapp.demo",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      }
+    },
+    "web": {
+      "favicon": "./assets/logo.svg"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "50e1df7f-20b8-4abe-b15d-a739d39b7417"
+      }
+    }
+  }
+}
