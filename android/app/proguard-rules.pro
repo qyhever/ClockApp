@@ -7,8 +7,17 @@
 # For more details, see
 #   http://developer.android.com/guide/developing/tools/proguard.html
 
+# React Native optimization
+-keepclasseswithmembers class * {
+    native <methods>;
+}
+
 # react-native-reanimated
 -keep class com.swmansion.reanimated.** { *; }
 -keep class com.facebook.react.turbomodule.** { *; }
 
 # Add any project specific keep options here:
+
+# Enable aggressive optimization
+-optimizationpasses 5
+-dontusemixedcaseclassnames
